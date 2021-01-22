@@ -24,17 +24,17 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const sections = document.querySelectorAll('section[id]');
 
 const scrollActive = () => {
-    const scrollY = window.pageYOffset
+    const scrollY = window.pageYOffset;
 
     sections.forEach(current => {
-        const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop - 50
-        sectionId = current.getAttribute('id')
+        const sectionHeight = current.offsetHeight;
+        const sectionTop = current.offsetTop - 50;
+        sectionId = current.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link');
         } else {
-            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link');
         }
     })
 }
