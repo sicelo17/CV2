@@ -329,6 +329,19 @@ img {
     background-color: var(--first-color-dark);
 }
 
+.button-light {
+    background-color: var(--first-color-light);
+}
+
+.button-white {
+    background-color: var(--first-color-lighten);
+    color: var(--first-color-dark);
+}
+
+.button-white:hover {
+    background-color: var(--first-color-lighten);
+}
+
 /* ===== ABOUT ==== */
 .about_data {
     text-align: center;
@@ -421,4 +434,29 @@ img {
 .services_data:hover {
     transform: translateY(-.5rem);
     box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
+}
+
+/* ==== PROJECT IN MIND */
+.project_container {
+    padding: 1.5rem 1rem;
+    background-color: var(--first-color-dark);
+    color: var(--first-color-lighten);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.project_icon, .project_title {
+    margin-bottom: var(--mb-1);
+}
+
+.project_icon {
+    font-size: 3.5rem;
+}
+
+.project_title {
+    font-size: 1.5rem;
+}
+
+.project_description {
+    margin-bottom: var(--mb-4);
 }
