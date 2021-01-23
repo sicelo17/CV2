@@ -25,7 +25,7 @@
     /* Font weight */
     --font-medium: 500;
     --font-semi-bold: 600;
-    --font-bond: 700;
+    --font-bold: 700;
 
     /* Margins */
     --mb-1: .5rem;
@@ -474,6 +474,7 @@ img {
 .portfolio_nav {
     text-align: center;
     margin-bottom: var(--mb-3);
+    font-weight: lighter;
 }
 
 .portfolio_item {
@@ -515,3 +516,11 @@ img {
 .portfolio_content:hover, .portfolio_img{
     transform: scale(1.02);
 }
+
+/* Active menu portfolio */
+.active-portfolio {
+    color: var(--first-color-dark);
+    font-weight: var(--font-bold);
+}
+
+/* ==== CONTACT ==== */

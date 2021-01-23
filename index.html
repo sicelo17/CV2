@@ -121,7 +121,7 @@
                     </div>
                 </div>
 
-                 <div class="qualification_content">
+            <div class="qualification_content">
                     <h2 class="qualification-title">
                         <i class="bx bx-book-bookmark qualification-title-icon"></i>
                         Education
@@ -161,7 +161,7 @@
                     <a href="#" class="button">Know More</a>
                 </div>
 
-                 <div class="services_data">
+                <div class="services_data">
                     <i class="bx bx-laptop services_icon"></i>
                     <h3 class="services_title">Web Development</h3>
                     <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magnam?</p>
@@ -171,7 +171,7 @@
         </section>
 
         <!-- ==== PROJECT IN MIND ==== -->
-          <section class="project section bd-container">
+        <section class="project section bd-container">
             <div class="project_container bd-grid">
                 <div class="project_data">
                     <i class="bx bx-chat project_icon"></i>
@@ -186,58 +186,108 @@
                     </div>
                 </div>
             </div>
-          </section>
+        </section>
 
         <!-- ==== PORTFOLIO ==== -->
-          <section class="portfolio section bd-container" id="portfolio">
-              <span class="section-subtitle">My recent works</span>
-              <h2 class="section-title">Portfolio</h2>
+        <section class="portfolio section bd-container" id="portfolio">
+            <span class="section-subtitle">My recent works</span>
+            <h2 class="section-title">Portfolio</h2>
 
-              <div class="portfolio_nav">
-                  <span class="portfolio_item">All</span>
-                  <span class="portfolio_item">Web</span>
-                  <span class="portfolio_item">UI/UX</span>
-              </div>
+            <div class="portfolio_nav">
+                <span class="portfolio_item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio_item" data-filter=".web">Web</span>
+                <span class="portfolio_item" data-filter=".ux">UI/UX</span>
+            </div>
 
-              <div class="portfolio_container bd-grid">
-                  <div class="portfolio_content">
+            <div class="portfolio_container bd-grid">
+                <div class="portfolio_content mix web">
                       <a href="#"><img src="./assets/img/phone.jpg" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">Web Development</span>
                           <a href="#"><h2 class="portfolio_title">New Portfolio of work done</h2></a>
                           <a href="#" class="button button-link">View Details</a>
                       </div>
-                  </div>
+                </div>
 
-                  <div class="portfolio_content">
+                <div class="portfolio_content mix web">
                       <a href="#"><img src="./assets/img/prog.jpg" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">Web Development</span>
                           <a href="#"><h2 class="portfolio_title">New Portfolio of work done</h2></a>
                           <a href="#" class="button button-link">View Details</a>
                       </div>
-                  </div>
+                </div>
 
-                  <div class="portfolio_content">
+                <div class="portfolio_content mix ux">
                       <a href="#"><img src="./assets/img/coffee.jpg" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">UI/UX Design</span>
                           <a href="#"><h2 class="portfolio_title">New Portfolio of work done</h2></a>
                           <a href="#" class="button button-link">View Details</a>
                       </div>
-                  </div>
-              </div>
-          </section>
+                </div>
+            </div>
+        </section>
 
         <!-- ==== CONTACT ==== -->
+        <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle">Get in Touch</span>
+            <h2 class="section-title">Contact Me</h2>
 
+            <div class="contact_container bd-grid">
+                <div class="contact_content bd-grid">
+                    <div class="contact_box">
+                        <i class="bx bx-home contact_icon"></i>
+                        <h3 class="contact_title">Location</h3>
+                        <span class="contact_description">Gweru - Zimbabwe</span>
+                    </div>
+
+                    <div class="contact_box">
+                        <i class="bx bx-phone contact_icon"></i>
+                        <h3 class="contact_title">Phone</h3>
+                        <span class="contact_description">+263 78 493 9154</span>
+                    </div>
+
+                    <div class="contact_box">
+                        <i class="bx bx-envelope contact_icon"></i>
+                        <h3 class="contact_title">Email</h3>
+                        <span class="contact_description">sicelositsha@yahoo.com</span>
+                    </div>
+
+                    <div class="contact_box">
+                        <i class="bx bx-home contact_icon"></i>
+                        <h3 class="contact_title">Location</h3>
+                        <div>
+                            <a href="#" class="contact_social"><i class="bx bxl-whatsapp contact_icon"></i></a>
+                            <a href="#" class="contact_social"><i class="bx bxl-telegram contact_icon"></i></a>
+                            <a href="#" class="contact_social"><i class="bx bxl-messenger contact_icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="email" placeholder="Email" class="contact_input">
+                    </div>
+
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Project" class="contact_input">
+                        <input type="number" placeholder="Number" class="contact_input">
+                    </div>
+
+                    <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="contact_input"></textarea>
+                    <input type="submit" value="Send Message" class="button contact_button">
+                </form>
+            </div>
+            </section>
 
     </main>
 
     <!-- ==== FOOTER ==== -->
 
     <!-- ==== MIXITUP Filter ==== -->
-    <script src=""></script>
+    <script src="./assets/js/mixitup.min.js"></script>
 
     <!-- ==== SWIPER JS ==== -->
     <script src=""></script>
