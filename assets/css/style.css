@@ -701,7 +701,11 @@ img {
     }
 
     .home_img img {
-        width: 440px;
+        width: 400px;
+    }
+
+    .home_data {
+        padding-top: 4rem;
     }
 
     .about_description {
