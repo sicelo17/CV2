@@ -1,0 +1,13 @@
+{"servicesData" : [
+    {
+        "name": "Web Development",
+        "desc": "Services that I offer and are very passionate about",
+        "icon": "bx bx-laptop services_icon"
+    },
+    {
+        "name": "UI/UX Design",
+        "desc": "Services that I offer and are very passionate about",
+        "icon": "bx bx-palette services_icon"
+    }
+]
+}

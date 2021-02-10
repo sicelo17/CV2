@@ -12,7 +12,7 @@ const servicesData = [
 ];
 
 
-// function to display data 
+// function to display data in services
 const serviceTemplate = (service) => {
     return `
          <div class="services_data">
