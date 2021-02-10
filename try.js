@@ -22,7 +22,7 @@ request.onreadystatechange = function () {
 
         const portfolioTemplate = (portfolio) => {
             return `
-                <div class="${portfolio.desc}">
+                <div class="${portfolio.content}">
                       <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">${portfolio.name}</span>
