@@ -26,6 +26,6 @@ function change_myselect(sel) {
             }
         };
     xmlhttp.open("GET", "constants.json", true);
-    
+    xmlhttp.responseType = 'json';
     xmlhttp.send();
 }
