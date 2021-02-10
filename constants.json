@@ -18,21 +18,21 @@
             "name": "Web Development",
             "title": "New Portfolio of work done",
             "address": "View Details",
-            "desc": "web"
+            "desc": "portfolio_content mix web"
         },
         {
             "img": "./assets/img/prog.jpg",
             "name": "Web Development",
             "title": "New Portfolio of work done",
             "address": "View Details",
-            "desc": "web"
+            "desc": "portfolio_content mix web"
         },
         {
             "img": "./assets/img/phone.jpg",
             "name": "UI/UX Design",
             "title": "New Portfolio of work done",
             "address": "View Details",
-            "desc": "ux"
+            "desc": "portfolio_content mix ux"
         }
     ]
 }

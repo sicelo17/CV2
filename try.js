@@ -6,7 +6,7 @@ request.responseType = 'json';
 request.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         // information from the constants.json
-        servicesData = request.response;
+        data = request.response;
 
         //function to add items to the webpage
         const serviceTemplate = (service) => {
@@ -22,7 +22,7 @@ request.onreadystatechange = function () {
 
         const portfolioTemplate = (portfolio) => {
             return `
-                <div class="portfolio_content mix ${portfolio.desc}">
+                <div class="${portfolio.desc}">
                       <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">${portfolio.name}</span>
@@ -35,11 +35,11 @@ request.onreadystatechange = function () {
         
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
-            ${servicesData.serviceData.map(serviceTemplate).join('')}
+            ${data.serviceData.map(serviceTemplate).join('')}
             `;
         
         document.getElementById("portfolio-content").innerHTML = `
-            ${servicesData.portfolio.map(portfolioTemplate).join('')}
+            ${data.portfolio.map(portfolioTemplate).join('')}
         `;
     }
 };
