@@ -2,18 +2,13 @@ let requestURL = "./constants.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = 'json';
-request.send();
-let res = request.response
 
-request.onload = function () {
-    servicesData = request.response;
-    //console.log(servicesData);
-    //serviceTemplate();
-}
-
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function () {
+request.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
+        // information from the constants.json
+        servicesData = request.response;
+
+        //function to add items to the webpage
         const serviceTemplate = (service) => {
             return `
                     <div class="services_data">
@@ -27,10 +22,10 @@ xhttp.onreadystatechange = function () {
         
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
-            ${res.map(serviceTemplate).join('')}
+            ${servicesData.serviceData.map(serviceTemplate).join('')}
             `;
     }
 };
-xhttp.open("GET", "constants.json", true);
-xhttp.send();
+request.open("GET", "constants.json", true);
+request.send();
 
