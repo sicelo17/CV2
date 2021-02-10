@@ -19,11 +19,28 @@ request.onreadystatechange = function () {
                     </div>
                 `
         };
+
+        const portfolioTemplate = (portfolio) => {
+            return `
+                <div class="portfolio_content mix ${portfolio.desc}">
+                      <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
+                      <div class="portfolio_data">
+                          <span class="portfolio_subtitle">${portfolio.name}</span>
+                          <a href="#"><h2 class="portfolio_title">${portfolio.title}</h2></a>
+                          <a href="#" class="button button-link">${portfolio.address}</a>
+                      </div>
+                </div>
+            `
+        }
         
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
             ${servicesData.serviceData.map(serviceTemplate).join('')}
             `;
+        
+        document.getElementById("portfolio-content").innerHTML = `
+            ${servicesData.portfolio.map(portfolioTemplate).join('')}
+        `;
     }
 };
 request.open("GET", "constants.json", true);
