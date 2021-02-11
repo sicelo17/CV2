@@ -34,5 +34,25 @@
             "title": "New Portfolio of work done",
             "link": "View Details"
         }
+    ],
+    "qualification": [
+        {
+            "title": "Work Experience",
+            "area": "Web Developer",
+            "icon": "bx bx-briefcase-alt qualification-icon",
+            "icon2": "bx bx-briefcase-alt qualification-icon",
+            "place": "Cranelad",
+            "work": "bx bx-calendar-alt qualification-icon",
+            "duration": "Sept 2020 - Current"
+        },
+        {
+            "title": "Education",
+            "area": "BSc(Hon) Computer Science",
+            "icon2": "bx bx-briefcase-alt qualification-icon",
+            "icon": "bx bx-book-bookmark qualification-icon",
+            "place": "National University of Science and Technology",
+            "work": "bx bx-calendar-alt qualification-icon",
+            "duration": "Mar 2019 - Current"
+        }
     ]
 }

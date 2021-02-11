@@ -32,6 +32,35 @@ request.onreadystatechange = function () {
                 </div>
             `
         };
+
+        const qualificationTemplate = (qualification) => {
+            return `
+                <div class="qualification_content">
+                    <h2 class="qualification-title">
+                        <i class="${qualification.icon2}"></i>
+                        ${qualification.title}
+                    </h2>
+
+                    <div class="bd-grid">
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">${qualification.area}</h3>
+
+                            <div class="qualification_box">
+                                <span class="qualification_work">
+                                    <i class="${qualification.icon}"></i>
+                                    ${qualification.place}
+                                </span>
+
+                                <span class="qualification_work">
+                                    <i class="${qualification.work}"></i>
+                                    ${qualification.duration}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `
+        }
         
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
@@ -40,6 +69,10 @@ request.onreadystatechange = function () {
         
         document.getElementById("portfolio-content").innerHTML = `
             ${data.portfolio.map(portfolioTemplate).join('')}
+        `;
+
+        document.getElementById("qualification-area").innerHTML = `
+            ${data.qualification.map(qualificationTemplate).join('')}
         `;
     }
 };
