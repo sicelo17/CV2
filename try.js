@@ -60,8 +60,8 @@ request.onreadystatechange = function () {
                     </div>
                 </div>
             `
-        }
-        
+        };
+
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
             ${data.serviceData.map(serviceTemplate).join('')}
@@ -74,6 +74,8 @@ request.onreadystatechange = function () {
         document.getElementById("qualification-area").innerHTML = `
             ${data.qualification.map(qualificationTemplate).join('')}
         `;
+
+        
     }
 };
 request.open("GET", "constants.json", true);
