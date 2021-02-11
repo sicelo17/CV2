@@ -23,15 +23,15 @@ request.onreadystatechange = function () {
         const portfolioTemplate = (portfolio) => {
             return `
                 <div class="${portfolio.content}">
-                      <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
+                    <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">${portfolio.name}</span>
                           <a href="#"><h2 class="portfolio_title">${portfolio.title}</h2></a>
-                          <a href="#" class="button button-link">${portfolio.address}</a>
+                          <a href="#" class="button button-link">${portfolio.link}</a>
                       </div>
                 </div>
             `
-        }
+        };
         
         // adding the html to the page
         document.getElementById("serv").innerHTML = `
