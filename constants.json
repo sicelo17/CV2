@@ -54,5 +54,31 @@
             "work": "bx bx-calendar-alt qualification-icon",
             "duration": "Mar 2019 - Current"
         }
+    ],
+    "home": [
+        {
+            "icon": "bx bxl-twitter"
+        },
+        {
+            "icon": "bx bxl-instagram"
+        },
+        {
+            "icon": "bx bxl-linkedin-square'"
+        },
+        {
+            "icon": "bx bxl-github"
+        }
+    ],
+
+    "contact": [
+        {
+            "icon": "bx bxl-whatsapp contact_icon"
+        },
+        {
+            "icon": "bx bxl-telegram contact_icon"
+        },
+        {
+            "icon": "bx bxl-messenger contact_icon"
+        }
     ]
 }

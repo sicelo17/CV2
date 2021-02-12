@@ -9,6 +9,19 @@ request.onreadystatechange = function () {
         data = request.response;
 
         //function to add items to the webpage
+
+        const homeTemplate = (home) => {
+            return `
+                    <a href="#" class="home_social-icon"><i class='${home.icon}'></i></a>
+            `
+        };
+
+        const contactTemplate = (contact) => {
+            return `
+                   <a href="#" class="contact_social"><i class="${contact.icon}"></i></a>
+            `
+        };
+
         const serviceTemplate = (service) => {
             return `
                     <div class="services_data">
@@ -59,13 +72,21 @@ request.onreadystatechange = function () {
                         </div>
                     </div>
                 </div>
-            `
+            `;
         };
 
         // adding the html to the page
+        document.getElementById("home-social").innerHTML = `
+            ${data.home.map(homeTemplate).join('')}
+        `;
+
+        document.getElementById("contact-info").innerHTML = `
+            ${data.contact.map(contactTemplate).join('')}
+        `;
+
         document.getElementById("serv").innerHTML = `
             ${data.serviceData.map(serviceTemplate).join('')}
-            `;
+        `;
         
         document.getElementById("portfolio-content").innerHTML = `
             ${data.portfolio.map(portfolioTemplate).join('')}
