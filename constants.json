@@ -68,5 +68,17 @@
         {
             "icon": "bx bxl-github"
         }
+    ],
+
+    "contact": [
+        {
+            "icon": "bx bxl-whatsapp contact_icon"
+        },
+        {
+            "icon": "bx bxl-telegram contact_icon"
+        },
+        {
+            "icon": "bx bxl-messenger contact_icon"
+        }
     ]
 }
