@@ -14,21 +14,24 @@
 
     "portfolio": [
         {   
-            "content": "portfolio_content mix web",
+            "content": "portfolio_content mix",
+            "class": "web",
             "img": "https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "name": "Web Development",
             "title": "New Portfolio of work done",
             "link": "View Details"
         },
         {   
-            "content": "portfolio_content mix web",
+            "content": "portfolio_content mix",
+            "class": "web",
             "img": "./assets/img/prog.jpg",
             "name": "Web Development",
             "title": "New Portfolio of work done",
             "link": "View Details"
         },
         {   
-            "content": "portfolio_content mix ux",
+            "content": "portfolio_content mix",
+            "class": "ux",
             "img": "./assets/img/phone.jpg",
             "name": "UI/UX Design",
             "title": "New Portfolio of work done",

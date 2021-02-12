@@ -35,7 +35,7 @@ request.onreadystatechange = function () {
 
         const portfolioTemplate = (portfolio) => {
             return `
-                <div class="${portfolio.content}">
+                <div class="${portfolio.content} ${portfolio.class}">
                     <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">${portfolio.name}</span>
@@ -99,6 +99,6 @@ request.onreadystatechange = function () {
         
     }
 };
-request.open("GET", "constants.json", true);
+// request.open("GET", "constants.json", true);
 request.send();
 
