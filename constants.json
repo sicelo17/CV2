@@ -60,28 +60,35 @@
     ],
     "home": [
         {
-            "icon": "bx bxl-twitter"
+            "icon": "bx bxl-twitter",
+            "home_link": "https://twitter.com/sitsha_sicelo"
         },
         {
-            "icon": "bx bxl-instagram"
+            "icon": "bx bxl-instagram",
+            "home_link": "https://www.instagram.com/i.am.sicelo/"
         },
         {
-            "icon": "bx bxl-linkedin-square'"
+            "icon": "bx bxl-linkedin-square'",
+            "home_link": "https://www.linkedin.com/in/sicelo-sitsha-41b287204/"
         },
         {
-            "icon": "bx bxl-github"
+            "icon": "bx bxl-github",
+            "home_link": "https://github.com/sicelo17/"
         }
     ],
 
     "contact": [
         {
-            "icon": "bx bxl-whatsapp contact_icon"
+            "icon": "bx bxl-whatsapp contact_icon",
+            "contact_link": "https://wa.me/263784939154"
         },
         {
-            "icon": "bx bxl-telegram contact_icon"
+            "icon": "bx bxl-telegram contact_icon",
+            "contact_link": "https://t.me/sicelo17"
         },
         {
-            "icon": "bx bxl-messenger contact_icon"
+            "icon": "bx bxl-messenger contact_icon",
+            "contact_link": "https://m.me/George Sicelo Sitsha"
         }
     ]
 }

@@ -12,13 +12,13 @@ request.onreadystatechange = function () {
 
         const homeTemplate = (home) => {
             return `
-                    <a href="#" class="home_social-icon"><i class='${home.icon}'></i></a>
+                    <a href="${home.home_link}" class="home_social-icon"><i class='${home.icon}'></i></a>
             `
         };
 
         const contactTemplate = (contact) => {
             return `
-                   <a href="#" class="contact_social"><i class="${contact.icon}"></i></a>
+                   <a href="${contact.contact_link}" class="contact_social"><i class="${contact.icon}"></i></a>
             `
         };
 
