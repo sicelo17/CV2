@@ -36,11 +36,11 @@ request.onreadystatechange = function () {
         const portfolioTemplate = (portfolio) => {
             return `
                 <div class="${portfolio.content} ${portfolio.class}">
-                    <a href="#"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
+                    <a href="${portfolio.portfolio_link}"><img src="${portfolio.img}" alt="" class="portfolio_img"></a>
                       <div class="portfolio_data">
                           <span class="portfolio_subtitle">${portfolio.name}</span>
-                          <a href="#"><h2 class="portfolio_title">${portfolio.title}</h2></a>
-                          <a href="#" class="button button-link">${portfolio.link}</a>
+                          <a href="${portfolio.portfolio_link}"><h2 class="portfolio_title">${portfolio.title}</h2></a>
+                          <a href="${portfolio.portfolio_link}" class="button button-link">${portfolio.link}</a>
                       </div>
                 </div>
             `
