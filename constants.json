@@ -19,7 +19,8 @@
             "img": "https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "name": "Web Development",
             "title": "New Portfolio of work done",
-            "link": "View Details"
+            "link": "View Details",
+            "portfolio_link": "https://wefarminc.netlify.app/"
         },
         {   
             "content": "portfolio_content mix",
@@ -27,7 +28,8 @@
             "img": "./assets/img/prog.jpg",
             "name": "Web Development",
             "title": "New Portfolio of work done",
-            "link": "View Details"
+            "link": "View Details",
+            "portfolio_link": "https://todo-app-three-mu.vercel.app/"
         },
         {   
             "content": "portfolio_content mix",
@@ -35,7 +37,8 @@
             "img": "./assets/img/phone.jpg",
             "name": "UI/UX Design",
             "title": "New Portfolio of work done",
-            "link": "View Details"
+            "link": "View Details",
+            "portfolio_link": "./assets/projects/Portfolio.xd"
         }
     ],
     "qualification": [
