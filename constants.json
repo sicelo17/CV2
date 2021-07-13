@@ -18,7 +18,7 @@
             "class": "web",
             "img": "https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "name": "Web Development",
-            "title": "New Portfolio of work done",
+            "title": "A website created using HTML5, CSS3 and Javascript",
             "link": "View Details",
             "portfolio_link": "https://wefarminc.netlify.app/"
         },
@@ -27,7 +27,7 @@
             "class": "web",
             "img": "./assets/img/prog.jpg",
             "name": "Web Development",
-            "title": "New Portfolio of work done",
+            "title": "A todo application created using Vue.js",
             "link": "View Details",
             "portfolio_link": "https://todo-app-three-mu.vercel.app/"
         },
@@ -36,7 +36,7 @@
             "class": "ux",
             "img": "./assets/img/phone.jpg",
             "name": "UI/UX Design",
-            "title": "New Portfolio of work done",
+            "title": "A design for a website using AdobeXD",
             "link": "View Details",
             "portfolio_link": "./assets/projects/Portfolio.xd"
         }
