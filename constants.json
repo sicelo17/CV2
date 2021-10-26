@@ -35,10 +35,10 @@
             "content": "portfolio_content mix",
             "class": "ux",
             "img": "./assets/img/phone.jpg",
-            "name": "UI/UX Design",
-            "title": "A design for a website using AdobeXD",
+            "name": "Web Development",
+            "title": "Income Application using Vue.js",
             "link": "View Details",
-            "portfolio_link": "./assets/projects/Portfolio.xd"
+            "portfolio_link": "https://incomeapplication.netlify.app/#/"
         }
     ],
     "qualification": [
