@@ -614,15 +614,15 @@ img {
     margin-bottom: var(--mb-6);
 }
 
-.footer_link {
+.footer_link i {
     font-size: 1.6rem;
-    background: var(--first-color-lighten);
+    color: var(--first-color-lighten);
     margin: 0 var(--mb-1);
     transition: .3s;
 }
 
-.footer_link:hover {
-    background-color: var(--first-color-light);
+.footer_link i:hover {
+    color: var(--first-color-light);
 }
 
 /* ==== MEDIA QUERIES ==== */
