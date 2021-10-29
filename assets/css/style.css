@@ -532,6 +532,10 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.contact_description a {
+    color: var(--first-color);
+}
+
 .contact_box {
     background-color: #fff;
     border-radius: .5rem;
